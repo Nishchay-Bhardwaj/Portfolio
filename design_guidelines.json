@@ -1,0 +1,37 @@
+{
+  "theme": "dark",
+  "archetype": "ELECTRIC & NEON / SWISS HIGH-CONTRAST MIX",
+  "typography": {
+    "headline_font": "Space Grotesk / Syne / Unbounded",
+    "body_font": "Inter / JetBrains Mono",
+    "weights": {
+      "light": "font-light",
+      "normal": "font-normal",
+      "bold": "font-bold",
+      "black": "font-black"
+    }
+  },
+  "colors": {
+    "background": "#09090b",
+    "surface": "#121217",
+    "primary": "#3b82f6",
+    "accent": "#10b981",
+    "text_primary": "#f8fafc",
+    "text_muted": "#94a3b8",
+    "border": "#27272a"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/60 border border-white/10",
+    "tracing_beam": "relative overflow-hidden rounded-2xl before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-blue-500 before:via-purple-500 before:to-emerald-500 before:rounded-2xl before:content-['']",
+    "noise_texture": true
+  },
+  "component_path": "/app/frontend/src/components",
+  "image_urls": [
+    {
+      "category": "developer_portrait",
+      "description": "Professional developer workspace and portrait",
+      "image_url": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdCUyMGRldmVsb3BlciUyMGNvZGluZyUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3ODg1MjEyNzN8MA&ixlib=rb-4.1.0&q=85"
+    }
+  ],
+  "instructions_to_main_agent": "Create a fully cinematic developer portfolio for Nishchay Bhardwaj with real GitHub repos (Spoiler-Blocker, Leetcode-metric, Paste-App, Skill-Bridge, Vibe-check-quiz, StudySync), resume viewer & downloader, and a working Contact Form that sends emails directly to nishchaybhardwaj2004@gmail.com via a Node backend using Resend/SMTP. Ensure all interactive items have data-testid attributes and high visual fidelity in dark mode."
+}
