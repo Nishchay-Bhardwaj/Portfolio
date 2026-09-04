@@ -18,6 +18,9 @@ Create a professional React portfolio for Nishchay Bhardwaj using resume, GitHub
 - Expanded internship journey with Hashedin by Deloitte dates, Bangalore location, full learning stack, and AgentSRE product-month story (text-only; screenshots removed per user request, July 2026).
 - Added AI/ML Hub and NSS Hub leadership, structured certifications (only supplied URLs render as links), IEEE publication link, linked IC3 2025 presentation certificate PDF (CSE/IC3-2025/340), CGPA corrected to 7.99, and live public GitHub repository refresh cards.
 - Escaped contact form content before building email HTML.
+- Wired all six credentials to user-supplied verification links with issuing periods (Coding Ninjas excellence/completion certificates for Intro to C++ and Data Structures in C++, Ideathon acknowledgement, IC3 2025 presentation PDF), July 2026.
+- Renamed navigation labels: Work → Projects, Journey → Experience.
+- Added a recruiter view toggle: compact, experience-first single-column layout with direct Email/LinkedIn/GitHub/Resume links, condensed projects, skills, and credentials.
 
 ## Prioritized backlog
 - P0: Replace Resend testing sender with a verified personal domain sender when available.
