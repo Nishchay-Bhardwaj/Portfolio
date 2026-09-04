@@ -10,6 +10,7 @@ from typing import List
 import uuid
 import asyncio
 import resend
+from html import escape
 from datetime import datetime, timezone
 
 
@@ -59,8 +60,8 @@ async def send_contact_message(request: ContactRequest):
         "from": os.environ.get("SENDER_EMAIL"),
         "to": [os.environ.get("CONTACT_RECIPIENT")],
         "reply_to": str(request.email),
-        "subject": f"Portfolio message from {request.name}",
-        "html": f"<h2>New portfolio enquiry</h2><p><strong>Name:</strong> {request.name}</p><p><strong>Email:</strong> {request.email}</p><p>{request.message.replace(chr(10), '<br>')}</p>",
+        "subject": f"Portfolio message from {escape(request.name)}",
+        "html": f"<h2>New portfolio enquiry</h2><p><strong>Name:</strong> {escape(request.name)}</p><p><strong>Email:</strong> {escape(str(request.email))}</p><p>{escape(request.message).replace(chr(10), '<br>')}</p>",
     }
     try:
         await asyncio.to_thread(resend.Emails.send, params)

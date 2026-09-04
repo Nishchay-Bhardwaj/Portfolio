@@ -15,6 +15,9 @@ Create a professional React portfolio for Nishchay Bhardwaj using resume, GitHub
 - Contact form validation, Resend email delivery, loading state, success/error toasts, and reply-to visitor email handling.
 - Accessible/descriptive data-testid coverage for interactive and critical user-facing elements.
 - Updated page metadata to “Nishchay Bhardwaj — Developer”.
+- Expanded internship journey with Hashedin by Deloitte dates, Bangalore location, full learning stack, AgentSRE product-month story, and supplied visual gallery.
+- Added AI/ML Hub and NSS Hub leadership, resume certifications, IEEE publication link, presentation credential, and live public GitHub repository refresh cards.
+- Escaped contact form content before building email HTML.
 
 ## Prioritized backlog
 - P0: Replace Resend testing sender with a verified personal domain sender when available.
