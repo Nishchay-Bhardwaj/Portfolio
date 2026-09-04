@@ -17,7 +17,7 @@ const projects = [
   { title: "Reelcoders", year: "2023", type: "Community", text: "A space for makers to share, discover and build in public.", tags: ["HTML", "CSS"], url: "https://github.com/Nishchay-Bhardwaj/Reelcoders", number: "05" },
   { title: "Resource Delivery", year: "2023", type: "Systems", text: "A C++ resource management system built with clarity and control.", tags: ["C++", "Systems"], url: "https://github.com/Nishchay-Bhardwaj/Resource-Delivery-System", number: "06" },
 ];
-const skills = ["C / C++", "Java", "Python", "JavaScript", "React", "Angular", "Node.js", "Spring Boot", "FastAPI", "AI / ML", "LangChain", "LangGraph", "RAG", "Databricks", "PySpark", "MySQL", "Git / GitHub"];
+const skills = ["C / C++", "Java", "Python", "JavaScript", "React", "Angular", "Node.js", "Spring Boot", "FastAPI", "AI / ML", "GenAI", "LangChain", "LangGraph", "RAG", "Databricks", "PySpark", "SQL", "MySQL", "MERN Stack", "Git / GitHub"];
 const certifications = [
   { title: "Certificate of Excellence — Introduction to C++", detail: "Coding Ninjas · Jan 2023 — Mar 2023", url: "https://certificate.codingninjas.com/view/4e4bd9723bea3f16" },
   { title: "Certificate of Completion — Introduction to C++", detail: "Coding Ninjas · Jan 2023 — Mar 2023", url: "https://certificate.codingninjas.com/view/46391de61824a43a" },
