@@ -6,7 +6,7 @@ import "@/App.css";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const portrait = "https://customer-assets-m6fa6gv7.emergentagent.net/job_c1555852-f358-419c-bf57-b40548ec335e/artifacts/zccfa9ft_profile1.jpeg";
-const resume = "https://customer-assets-m6fa6gv7.emergentagent.net/job_c1555852-f358-419c-bf57-b40548ec335e/artifacts/wgjm7asb_Nishchay_Resume%20%281%29.pdf";
+const resume = "https://drive.google.com/file/d/1sokN_rm7mvPrH3nzzcbh6lgtMruW6-Ab/view";
 const presentationCertificate = "https://customer-assets-v7afamib.emergentagent.net/job_dev-nishchay/artifacts/ajofxqat_340_Mr.%20Nishchay%20Bhardwaj.pdf";
 
 const projects = [
