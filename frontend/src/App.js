@@ -7,7 +7,7 @@ import "@/App.css";
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const portrait = "https://lh3.googleusercontent.com/d/1smbq8K_9j-ViDjbtaWzw9M_kGK8oXaIL";
 const resume = "https://drive.google.com/file/d/1sokN_rm7mvPrH3nzzcbh6lgtMruW6-Ab/view";
-const presentationCertificate = "https://customer-assets-v7afamib.emergentagent.net/job_dev-nishchay/artifacts/ajofxqat_340_Mr.%20Nishchay%20Bhardwaj.pdf";
+const presentationCertificate = "https://drive.google.com/file/d/18v0wcZm4erVxuNn2vLffTmAVhpYjUHS3/view";
 
 const projects = [
   { title: "Spoiler Blocker", year: "2024", type: "AI / Browser Extension", text: "Context-aware spoiler detection using a fine-tuned BERT model and FastAPI.", tags: ["Python", "BERT", "FastAPI"], url: "https://github.com/Nishchay-Bhardwaj/Spoiler-Blocker", number: "01" },
