@@ -6,7 +6,7 @@ import "@/App.css";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 const portrait = "https://lh3.googleusercontent.com/d/1smbq8K_9j-ViDjbtaWzw9M_kGK8oXaIL";
-const resume = "https://drive.google.com/file/d/1sokN_rm7mvPrH3nzzcbh6lgtMruW6-Ab/view";
+const resume = "https://drive.google.com/uc?export=download&id=1sokN_rm7mvPrH3nzzcbh6lgtMruW6-Ab";
 const presentationCertificate = "https://drive.google.com/file/d/18v0wcZm4erVxuNn2vLffTmAVhpYjUHS3/view";
 
 const projects = [
